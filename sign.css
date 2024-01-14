@@ -4,6 +4,8 @@ background: var(--Call-to-Action, #A259FF);
 
 }
 .sign{
+    text-decoration: none;
+
     color: #FFF;
     text-align: center;
     font-family: Work Sans;

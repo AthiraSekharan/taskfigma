@@ -4,6 +4,7 @@ background: var(--Call-to-Action, #A259FF);
 
 }
 .sign{
+    text-decoration: none;
     color: #FFF;
     text-align: center;
     font-family: Work Sans;
@@ -13,7 +14,16 @@ background: var(--Call-to-Action, #A259FF);
     line-height: 140%; /* 22.4px */
 }
 
-
+.jhg{
+    color: #FFF;
+text-decoration: none;
+/* Base(Body) - Work Sans */
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
 
 
 
@@ -26,12 +36,14 @@ background: var(--Call-to-Action, #A259FF);
     line-height: 110%;
     /* 73.7px */
     text-transform: capitalize;
+    display: flex;
+width: 510px;
+flex-direction: column;
+justify-content: center;
+flex: 1 0 0;
 }
 
-.p1 {
-    border-radius: 20px 20px 0px 0px;
-    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
-}
+
 
 .div1 {
     height: 401px;
@@ -44,11 +56,9 @@ background: var(--Call-to-Action, #A259FF);
     color: var(--White, #FFF);
 
     /* Body Text- Work Sans */
-    font-family: Work Sans;
-    font-size: 22px;
+    font-size: 12px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
+    font-weight: 100;
     /* 35.2px */
     text-transform: capitalize;
 }
